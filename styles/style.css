@@ -1,7 +1,21 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.header{
-    
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../img/header-bg.jpg);
+    min-height: 793px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
