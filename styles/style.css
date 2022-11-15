@@ -104,14 +104,14 @@ a {
 
 .header-slider__btn {
     text-transform: uppercase;
-    font-weight: 600;
     color: #250F8A;
-    padding: 13px 30px;
+    font-weight: 600;    
+    padding: 13px 39px;
     background-color: #FFCA00;
     border-radius: 25px;
 }
 
-.header-slider__item-images {
+/* .header-slider__item-images {
     margin: 10px 82px 0 0;
 
-}
+} */
