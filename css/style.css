@@ -99,7 +99,7 @@ a {
 .header-slider__description {
     line-height: 55px;
     font-size: 24px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .header-slider__btn {
@@ -111,7 +111,7 @@ a {
     border-radius: 25px;
 }
 
-/* .header-slider__item-images {
+.header-slider__item-images {
     margin: 10px 82px 0 0;
 
-} */
+}
