@@ -79,10 +79,6 @@ a {
     padding-top: 111px;
 }
 
-.header-slider__item {
-
-}
-
 .header-slider__item-content {
     display: flex;
     justify-content: space-between;
@@ -115,4 +111,7 @@ a {
     border-radius: 25px;
 }
 
-.header-slider__item-images {}
+.header-slider__item-images {
+    margin: 10px 82px 0 0;
+
+}
