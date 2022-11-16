@@ -17,6 +17,8 @@ a {
     color: inherit;
 }
 
+/* header style start */
+
 .header {
     background-image: url(../img/header-bg.jpg);
     min-height: 793px;
@@ -140,5 +142,22 @@ a {
 .header-dots .slick-active button{
     width: 15px;
     opacity: 1;
-
 }
+
+/* header style end */
+
+/* specialised style start */
+
+.specialised {
+    &__title {}
+    &__item {}
+    &__item-img {}
+    &__item-title {}
+    &__item-text {}
+  }
+  .title {
+  }
+
+  /* specialised style end */
+  
+
