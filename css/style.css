@@ -324,11 +324,17 @@ a {
 
 /* footer style start */
 
-.footer {}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    color: #272727;
+    padding: 0 40px;
+}
 
-.footer__inner {}
-
-.footer__link {}
-
+.footer__link a + a {
+    margin-left: 20px;
+}
 
 /* footer style end */
