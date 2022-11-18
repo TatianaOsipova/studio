@@ -256,6 +256,46 @@ a {
 
 /* reviews style start */
 
+.reviews {
+    background-image: url(../img/reviews-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 38px 0 82px;
+}
+
+.reviews__title {
+    color: #fff;
+    margin: 0 auto 48px;
+    max-width: 384px;
+}
+
+.reviews__items {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item {
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.reviews__item-head {}
+
+.reviews__item-info {}
+
+.reviews__item-name {}
+
+.reviews__item-position {}
+
+.reviews__item-text {}
+
+.container {}
+
+
 
 
 /* reviews style end */
