@@ -310,7 +310,7 @@ a {
 }
 
 .reviews__item-text::before{
-    content: '❝';
+    content: '“';
     font-size: 40px;
     line-height: 55px;
     font-weight: 700;
