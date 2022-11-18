@@ -290,7 +290,7 @@ a {
     display: flex;
 }
 
-.reviews__item-head img{
+.reviews__item-head img {
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -309,7 +309,7 @@ a {
     position: relative;
 }
 
-.reviews__item-text::before{
+.reviews__item-text::before {
     content: '“';
     font-size: 40px;
     line-height: 55px;
@@ -321,3 +321,14 @@ a {
 }
 
 /* reviews style end */
+
+/* footer style start */
+
+.footer {}
+
+.footer__inner {}
+
+.footer__link {}
+
+
+/* footer style end */
