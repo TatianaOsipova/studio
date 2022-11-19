@@ -333,13 +333,31 @@ a {
     padding: 0 40px;
 }
 
-.footer__link a + a {
+.footer__link a+a {
     margin-left: 20px;
 }
 
 /* footer style end */
 
 /* adaptive start */
+
+@media (max-width: 924px) {
+    .header__top{
+        flex-wrap: wrap;
+    }
+    .header-btn{
+        width: 100%;
+        text-align: right;
+    }
+    .login{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 570px){
+    
+
+}
 
 
 
