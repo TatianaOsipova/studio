@@ -386,8 +386,25 @@ a {
     .header-slider__item-images{
         display: none;
     }
-
 }
+
+@media (max-width: 775px){
+    .specialised{
+        padding: 20px 0 40px;
+    }
+    .specialised__title{
+        margin-bottom: 40px;
+    }
+    .specialised__items{
+        flex-wrap: wrap;
+    }
+    .specialised__item{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+
 
 @media (max-width: 570px){
     .menu__list{
@@ -448,6 +465,16 @@ a {
     .header-slider__title{
         font-size: 35px;
         line-height: 45px;
+    }
+    .specialised__items{
+        display: block;
+    }
+    .specialised__item{
+        width: 100%;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 40px;
     }
 
 }
