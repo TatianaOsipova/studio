@@ -375,7 +375,10 @@ a {
 
     .advantages-box__images img {
         width: 80%;
-        align-items: center;
+    }
+
+    .advantages-box__images {
+        text-align: center;
     }
 
     .advantages-box {
@@ -410,7 +413,7 @@ a {
 
     .advantages-box__images img {
         width: 71%;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 }
 
@@ -451,6 +454,10 @@ a {
 
     .advantages {
         padding-top: 0;
+    }
+
+    .advantages-box__images img {
+        width: 100%;
     }
 
 }
@@ -559,6 +566,20 @@ a {
     .title {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .advantages-box__title {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 68px 0 15px 0;
+    }
+
+    .advantages-box__text {
+        padding-left: 0;
+    }
+
+    .advantages-box--right .advantages-box__text {
+        padding-left: 0;
     }
 
 }
