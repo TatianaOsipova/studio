@@ -517,9 +517,7 @@ a {
 
 }
 
-
-
-@media (max-width: 571px) {
+@media (max-width: 570px) {
     .menu__list {
         display: none;
         position: absolute;
