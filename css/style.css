@@ -618,24 +618,15 @@ a {
         padding-left: 0;
     }
 
+    .advantages-box--right .advantages-box__title{
+        padding-left: 0;
+    }
 }
-
-
-
-
-
-
-
-
 
 @media (min-width: 570px){
     .menu__list{
         display: flex !important;
     }    
 }
-
-
-
-
 
 /* adaptive end */
